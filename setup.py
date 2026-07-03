@@ -1,0 +1,30 @@
+from setuptools import setup, find_packages
+
+setup(
+    name='project_panopticon',
+    version='0.1.0',
+    packages=find_packages(),
+    install_requires=[
+        'pandas>=1.5.0',
+        'numpy>=1.23.0',
+        'scikit-learn>=1.1.0',
+        'xgboost>=1.6.0',
+        'lightgbm>=3.3.0',
+        'catboost>=1.0.0',
+        'opencv-python>=4.6.0',
+        'mediapipe>=0.8.0',
+        'ultralytics>=8.0.0',
+        'openai-whisper>=20231117',
+        'librosa>=0.10.0',
+        'shap>=0.41.0',
+        'matplotlib>=3.5.0',
+        'plotly>=5.9.0',
+        'seaborn>=0.11.0',
+        'streamlit>=1.20.0',
+        'joblib>=1.2.0',
+        'pyyaml>=6.0',
+        'python-dotenv>=0.20.0',
+        'pytest>=7.0.0'
+    ],
+    python_requires='>=3.8',
+)

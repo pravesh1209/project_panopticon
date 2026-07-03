@@ -1,0 +1,14 @@
+timestamp,event_type,event_count
+2026-06-26 12:23:56,copy_paste,1
+2026-06-26 12:24:22,tab_switch,1
+2026-06-26 12:24:46,copy_paste,1
+2026-06-26 12:25:00,copy_paste,1
+2026-06-26 12:25:07,tab_switch,3
+2026-06-26 12:25:13,tab_switch,2
+2026-06-26 12:25:15,copy_paste,2
+2026-06-26 12:25:16,copy_paste,2
+2026-06-26 12:25:17,tab_switch,1
+2026-06-26 12:25:23,copy_paste,1
+2026-06-26 12:25:26,copy_paste,2
+2026-06-26 12:29:19,copy_paste,1
+2026-06-26 12:29:42,tab_switch,1

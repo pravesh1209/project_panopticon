@@ -1,0 +1,26 @@
+# Project Panopticon Configuration
+data:
+  raw_path: "data/raw/"
+  processed_path: "data/processed/"
+  synthetic_path: "data/synthetic/"
+
+models:
+  save_dir: "models/"
+  random_seed: 42
+
+training:
+  test_size: 0.2
+  cv_folds: 5
+  class_weight: "balanced"
+
+threshold:
+  min_precision: 0.90
+  candidate_thresholds: [0.50, 0.60, 0.70, 0.80, 0.90, 0.95]
+
+dashboard:
+  port: 8501
+  theme: "dark"
+
+logging:
+  level: "INFO"
+  file: "logs/app.log"
